@@ -122,12 +122,12 @@ export default {
 .playbutton {
   flex: 1 1 24px;
   font-size: 24px;
-	position: relative;
+  position: relative;
   margin: 2px;
   width: 0px;
-	border-top: 0.4em solid transparent;
-	border-left: 0.8em solid #ccc;
-	border-bottom: 0.4em solid transparent;
+  border-top: 0.4em solid transparent;
+  border-left: 0.8em solid #ccc;
+  border-bottom: 0.4em solid transparent;
 }
 
 .pausebutton {
@@ -138,14 +138,11 @@ export default {
   left: -10px;
   top: -4px;
   padding: 0px;
-	width: 0.8em;
-	height: 24px;
-  background:
-		linear-gradient(to bottom, #ccc 0%, #ccc 100%) 0.45em 0.3em,
-		linear-gradient(to bottom, #ccc 0%, #ccc 100%) 0.75em 0.3em
-	;
-	background-size: 0.2em 0.8em;
-	background-repeat: no-repeat;
+  width: 0.8em;
+  height: 24px;
+  background:linear-gradient(to bottom, #ccc 0%, #ccc 100%) 0.45em 0.3em,linear-gradient(to bottom, #ccc 0%, #ccc 100%) 0.75em 0.3em;
+  background-size: 0.2em 0.8em;
+  background-repeat: no-repeat;
 }
 
 .controlbar-span {
